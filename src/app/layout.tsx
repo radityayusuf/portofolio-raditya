@@ -27,6 +27,8 @@ export const metadata: Metadata = {
   },
 };
 
+import LoadingScreen from "@/components/LoadingScreen";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -37,6 +39,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} font-sans bg-[#0a0a0f] text-neutral-50 antialiased selection:bg-teal-500/30 overflow-x-hidden`}
       >
+        <LoadingScreen />
         {children}
       </body>
     </html>
