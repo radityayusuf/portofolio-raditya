@@ -48,6 +48,7 @@ export default function Contact() {
         setResult(data.message);
       }
     } catch (error) {
+      console.error(error);
       setResult("Terjadi kesalahan jaringan, gagal mengirim pesan.");
     }
     

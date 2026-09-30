@@ -64,7 +64,7 @@ export default function ExperienceCard({ title, role, period, location, descript
             drag="x"
             dragConstraints={constraintsRef}
             dragElastic={0.2}
-            onDragEnd={(e, { offset, velocity }) => {
+            onDragEnd={(e, { offset }) => {
               const swipe = offset.x;
               if (swipe < -50 && galleryIndex < displayImages.length - 1) {
                 setGalleryIndex(galleryIndex + 1);

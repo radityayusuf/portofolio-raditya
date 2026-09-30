@@ -31,13 +31,13 @@ export default function Hero() {
               Mahasiswa Informatika | Pengembang Perangkat Lunak
             </h2>
             <h1 className="font-serif text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight text-white">
-              Hi, I'm <br />
+              Hi, I&apos;m <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Raditya Yusuf R.</span>
             </h1>
           </motion.div>
           
           <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-xl mx-auto md:mx-0 font-medium leading-relaxed">
-            "Dedicated to continuous growth, embracing every challenge as a stepping stone, and striving to leave a positive impact."
+            &quot;Dedicated to continuous growth, embracing every challenge as a stepping stone, and striving to leave a positive impact.&quot;
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start mb-8">

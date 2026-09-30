@@ -1,4 +1,4 @@
-import { Code2, PenTool, Database, MonitorSmartphone, Palette, Users, Zap, Terminal, Activity, Settings, Heart, Navigation, Car } from "lucide-react";
+import { Zap, Activity, Settings, Heart, Car } from "lucide-react";
 
 export const hardSkills = [
   // To be filled later

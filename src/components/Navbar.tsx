@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Moon, Menu, X, Home, User, Briefcase, Heart, Mail, Layers } from "lucide-react";
+import { Menu, X, Home, User, Briefcase, Heart, Mail, Layers } from "lucide-react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

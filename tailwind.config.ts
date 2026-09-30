@@ -39,7 +39,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function({ addUtilities }) {
+    function({ addUtilities }: { addUtilities: any }) {
       const newUtilities = {
         ".animation-delay-2000": {
           "animation-delay": "2s",
